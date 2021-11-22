@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+ 
+ 
+  <style>
+ 
+ h, td, tr, input, textarea, select, FORM
+ {
+   font-family:고딕;
+  font-size:1em;
+  border-radius:5px;
+  
+ }
+ 
+ table, FORM
+ {
+  border:1px solid rgba(36, 228, 172, 0.29);
+  border-spacing:15px;
+ }
+
+ 
+  
+  </style>
+
+
+</head>
+<body style="background-color:#f0f5f3">>
+ <center>
+ <h1> 회원가입</h1>
+ <table boder = "" bgcolor = "#cdfdee" cellspacing = "1" >
+ <FORM>
+*표시는 필수 입력 표시입니다.
+  <tr>
+   <td text-align="center">아이디 </td>
+   <td>
+   <input type = "text" /maxlength='14'>
+   <input type = "button" value = "중복확인"/>
+   </td>
+  </tr>
+
+ <tr>
+   <td> 이름 </td>
+   <td> <input type = "text"/> </td>
+  </tr>
+
+  <tr>
+   <td> 비밀번호 </td>
+   <td> <input type = "password"/maxlength='15'> </td>
+  </tr>
+
+
+  <tr>
+   <td> 비밀번호 확인 </td>
+   <td> <input type = "password"/>&nbsp; </td>
+  </tr>
+
+ 
+ <tr>
+   <td> E-mail </td>
+   <td>
+    <input type = "text"/> @ <input type = "text"/> &nbsp;&nbsp;
+    <select>
+     <option> 직접입력 </option>
+     <option> naver.com </option>
+     <option> daum.net </option>
+     <option> nate.com </option>
+    </select>
+   </td>
+  </tr>
+<tr>
+   <td> 휴대폰 </td>
+   <td>
+    <input type = "radio" name = "phone"/> SKT
+    <input type = "radio" name = "phone"/> KTF
+    <input type = "radio" name = "phone"/> LGU+
+   <br/>
+   <select>
+     <option> 010 </option>
+     <option> 011 </option>
+     <option> 016 </option>
+     <option> 018 </option>
+    </select>
+    <input type = "text" size = "6"/> - <input type = "text" size = "6"/>
+   </td>
+  </tr>
+<tr>
+   <td> 주소 </td>
+   <td>
+    <input type = "text"/>
+    <input type = "button" value = "주소찾기"/>
+   </td>
+  </tr>
+  <tr>
+   <td> 상세주소 </td>
+   <td>
+    <input type = "text"/>
+   </td>
+  </tr>
+
+<input type = "submit" value = "수정"/>
+<input type = "reset" value = "목록"/>
+
+
+</center>
+</body>
+</html>

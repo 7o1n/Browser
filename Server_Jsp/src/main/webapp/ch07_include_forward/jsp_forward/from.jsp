@@ -12,6 +12,7 @@
 <%
 	request.setAttribute("number", "1234");
 %>
+Jsp에서 사용하는 forward<br>
 <jsp:forward page="to.jsp?name=hong">
 	<jsp:param value="abcd" name="id"/>
 </jsp:forward>

@@ -38,7 +38,7 @@ request.setAttribute("NAME", hm);
 
 //4.Bean
 //Member 데이터 저장 : id-abcd, name:hong
-Member  m = new Member();
+Member m = new Member();
 m.setId("abcd");
 m.setName("hong");
 request.setAttribute("MEM", m);

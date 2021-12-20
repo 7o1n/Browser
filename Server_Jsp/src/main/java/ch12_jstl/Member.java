@@ -1,9 +1,10 @@
-package ch11_el;
+package ch12_jstl;
 
 public class Member {
-
-	private String name;// 이름1
+	
+	private String name;//이름1
 	private String id;
+	
 
 	public String getId() {
 		return id;
